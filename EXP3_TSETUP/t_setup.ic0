@@ -1,0 +1,25 @@
+* "simulator" "HSPICE" 
+* "version" "A-2007.09"
+* "format" "HSP"
+* "rundate" "00:36:30 04/26/2020 "
+* "netlist" "f:\vlsiexp\exp3_tsetup\t_setup.sp "
+* "runtitle" ".title t_setup measure by zhuoxu"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=  10.0000f       
+.nodeset
++ 1 =   0.            
++ 2 = 493.2312m       
++ 3 =   0.            
++ vcc! =   1.0000        
++ xdff.nclk = 999.9997m       
++ xdff.oi1 = 999.9997m       
++ xdff.oi2 = 999.9997m       
++ xdff.oi3 = 192.6577n       
++ xdff.oi4 = 999.9996m       
++ xdff.oi5 = 493.2287m       
++ xdff.ot1 = 999.9996m       
++ xdff.ot3 = 493.2306m       
+***   END: Saved Operating Point ***                     

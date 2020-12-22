@@ -1,0 +1,13 @@
+pnlAddPane();
+nil
+1
+designOpen("f:\\vlsiexp\\inverter_1\\cmos_inv.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(2)"), node(D0,"A0","VOLTS"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

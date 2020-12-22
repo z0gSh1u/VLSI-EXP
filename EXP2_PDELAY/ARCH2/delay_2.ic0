@@ -1,0 +1,37 @@
+* "simulator" "HSPICE" 
+* "version" "A-2007.09"
+* "format" "HSP"
+* "rundate" "17:14:34 04/11/2020 "
+* "netlist" "f:\vlsiexp\exp2_pdelay\arch2\delay_2.sp "
+* "runtitle" ".title delay test (method 2) by zhuoxu"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=  10.0000f       
+.nodeset
++ 1 =   0.            
++ 2 =   1.0000        
++ 3 =   1.0000        
++ 4 =   1.0000        
++ 5 =   1.0000        
++ 6 =   1.0000        
++ 7 =   1.0000        
++ 8 =   1.0000        
++ 9 = 999.9997m       
++ 10 = 749.3242n       
++ 11 = 749.9182n       
++ 12 = 749.9182n       
++ 13 = 189.2048n       
++ 14 = 999.9987m       
++ 15 = 999.9997m       
++ 16 = 185.7558n       
++ vcc! =   1.0000        
++ xnand2_1.c1 = 154.8087n       
++ xnand2_2.c1 = 377.3403n       
++ xnand2_3.c1 = 377.6373n       
++ xnand2_4.c1 = 377.6373n       
++ xnor2_1.c1 = 999.9996m       
++ xnor2_2.c1 = 999.9993m       
++ xnand2_5.c1 = 154.8098n       
+***   END: Saved Operating Point ***                     

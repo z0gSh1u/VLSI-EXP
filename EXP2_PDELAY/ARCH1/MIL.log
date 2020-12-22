@@ -1,0 +1,15 @@
+pnlAddPane();
+nil
+1
+designOpen("f:\\vlsiexp\\exp2_pdelay\\arch1\\delay_1.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(1)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(10)"), node(D0,"A0","TIME"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

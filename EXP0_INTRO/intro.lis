@@ -1,0 +1,139 @@
+ ****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 22:58:15 03/19/2020 winnt
+  Copyright (C) 2007 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement found in:
+    C:\synopsys\Hspice_A-2007.09\license.txt
+  Use of this program is your acceptance to be bound by this 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: f:\vlsiexp\intro_0\intro.sp                                       
+  lic:  
+  lic: FLEXlm: v8.5b 
+  lic: USER:   c1119                HOSTNAME: ZHUOXUPC 
+  lic: HOSTID: "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00ffd6dbca79 0a0027000008
+  
+  lic: Using FLEXlm license file: 
+  lic: C:\synopsys\Hspice_A-2007.09\license.dat 
+  lic: Checkout 1 hspice;  Encryption code: AD47C1C891DA5D596A45 
+  lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9 
+  lic: NODE LOCKED license on hostid "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00f
+ f
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_A-2007.09\meta.cfg
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+
+
+
+
+ .options list node post
+ .op
+ .print dc v(1) v(2) i(r1)
+ .plot dc v(1) v(2) i(r1)
+ v1 1 0 dc=6v
+ r1 1 2 5
+ r2 2 0 10
+ scientific notation:
+ a=10**-18  f=10**-15  p=10**-12  n=10**-9  u=10**-6
+ m=10**-3   k=10**3    x=10**6    g=10**9 
+
+ constants  - tnom         kt           vt           gapsi        ni
+            298.1500     4.116e-21     25.6918m      1.1156     1.256e+16  
+1****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 22:58:15 03/19/2020 winnt
+ ******  
+ a simple circuit                                                               
+  ******  circuit element summary          tnom=  25.000 temp=  25.000          
+ ******  
+
+
+ **** resistors
+
+  
+ element name       0:r1           0:r2       
+ node1              0:1            0:2        
+ node2              0:2            0:0        
+ model                                        
+ res eff            5.0000        10.0000     
+ tc1                0.             0.         
+ tc2                0.             0.         
+ scale              1.0000         1.0000     
+ m                  1.0000         1.0000     
+ ac                 5.0000        10.0000     
+ temp              25.0000        25.0000     
+ l                  0.             0.         
+ w                  0.             0.         
+ cap                0.             0.         
+ noise              1.0000         1.0000     
+
+
+ **** independent sources
+
+     name         node1        node2      dc volt    ac mag    ac phase    type
+        0:v1             0:1              0:0           6.0000     0.         0.      dc   
+1****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 22:58:15 03/19/2020 winnt
+ ******  
+ a simple circuit                                                               
+  ******  element node table                                                    
+ ******  
+ 0                r2            v1           
+ 1                r1            v1           
+ 2                r1            r2           
+1****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 22:58:15 03/19/2020 winnt
+ ******  
+ a simple circuit                                                               
+  ******  operating point information      tnom=  25.000 temp=  25.000          
+ ******  
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage
+
+ +0:1       =   6.0000  0:2       =   4.0000 
+
+
+ ****  voltage sources
+
+ subckt             
+ element  0:v1      
+  volts      6.0000 
+  current -400.0000m
+  power      2.4000 
+
+     total voltage source power dissipation=    2.4000        watts
+
+
+
+ **** resistors
+
+ subckt                        
+ element  0:r1       0:r2      
+  r value    5.0000    10.0000 
+  v drop     2.0000     4.0000 
+  current  400.0000m  400.0000m
+  power    800.0000m    1.6000 
+
+
+          ***** job concluded
+1****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 22:58:15 03/19/2020 winnt
+ ******  
+ a simple circuit                                                               
+  ******  job statistics summary           tnom=  25.000 temp=  25.000          
+ ******  
+
+           total memory used        155 kbytes
+
+  # nodes =       5 # elements=       5
+  # diodes=       0 # bjts    =       0 # jfets   =       0 # mosfets =       0
+  # va device =       0
+
+    analysis           time    # points   tot. iter  conv.iter
+
+    op point           0.00           1           4
+    readin             0.01
+    errchk             0.00
+    setup              0.01
+    output             0.00
+           total cpu time          0.05 seconds
+               job started at  22:58:15 03/19/2020
+               job ended   at  22:58:15 03/19/2020
+
+
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+  lic: Release hspice token(s) 

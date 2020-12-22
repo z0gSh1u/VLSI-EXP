@@ -1,0 +1,277 @@
+ ****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 16:09:39 04/11/2020 winnt
+  Copyright (C) 2007 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement found in:
+    C:\synopsys\Hspice_A-2007.09\license.txt
+  Use of this program is your acceptance to be bound by this 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: f:\vlsiexp\exp2_pdelay\arch1\delay_1.sp                           
+  lic:  
+  lic: FLEXlm: v8.5b 
+  lic: USER:   c1119                HOSTNAME: ZHUOXUPC 
+  lic: HOSTID: "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00ffd6dbca79 0a0027000008
+  
+  lic: Using FLEXlm license file: 
+  lic: C:\synopsys\Hspice_A-2007.09\license.dat 
+  lic: Checkout 1 hspice;  Encryption code: AD47C1C891DA5D596A45 
+  lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9 
+  lic: NODE LOCKED license on hostid "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00f
+ f
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_A-2007.09\meta.cfg
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+
+
+
+
+
+ .options post brief
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:51)  model n11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:201)  model p11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:324)   model nhvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:453)   model phvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:573)   model nlvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:700)   model plvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:815)   model nt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:928)   model n25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1046)   model nod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1192)   model nud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1310)   model p25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1430)   model pod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1554)   model pud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1675)   model nt25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1793)   model ntod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1911)   model ntud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:51)  model n11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:201)  model p11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:324)   model nhvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:453)   model phvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:573)   model nlvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:700)   model plvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:815)   model nt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:928)   model n25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1046)   model nod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1192)   model nud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1310)   model p25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1430)   model pod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1554)   model pud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1675)   model nt25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1793)   model ntod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1911)   model ntud18ll_ckt is not used in netlist
+
+ ***********************************************************************
+ ** runlvl is invoked, you can disable it by:
+      a) Add option runlvl=0 to your current simulation job.
+      b) Copy $installdir/hspice.ini to your HOME directory and
+         customize it by adding option runlvl=0, which disables
+         it for all of your simulation jobs.
+      c) Re-invoke $installdir/bin/config program and unselect the
+         option runlvl setting in box 'hspice.ini' which disables
+         it for whole group simulation jobs.
+
+ ** runlvl is invoked, some options are ignored or automatically set:
+      Options below are automatically set(user setting will overwrite them):
+      if runlvl=6,            .option bypass=0
+      if runlvl=[1|2|3|4|5],  .option bypass=2
+
+      Options below are ignored, they are replaced by automated algorithms:
+        lvltim    dvdt      ft    fast   trtol  absvar  relvar
+          relq  chgtol    dvtr    imin    itl3    rmax
+
+ ** runlvl is invoked, actual option value used by HSPICE are:
+       runlvl= 3       bypass= 2      mbypass=   2.00   bytol= 100.00u
+ ***********************************************************************
+
+
+ **warning** both nodes of source     0:v2              
+             are connected together
+
+
+ **warning** dc voltage reset to initial transient source value
+             in source        0:vin1                new dc=  0.0000D+00
+
+  Opening plot unit= 79
+ file=f:\vlsiexp\exp2_pdelay\arch1\delay_1.pa0                                 
+
+ ****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 16:09:39 04/11/2020 winnt
+ ******  
+ .title delay test (method 1) by zhuoxu                                         
+  ******  operating point information      tnom=  25.000 temp=  25.000          
+ ******  
+ ***** operating point status is all       simulation time is     0.     
+     node    =voltage       node    =voltage       node    =voltage
+
+ + 0:1       =   0.       0:2       =   1.0000   0:3       =   1.0000 
+ + 0:4       =   1.0000   0:5       =   1.0000   0:6       =   1.0000 
+ + 0:7       =   1.0000   0:8       =   1.0000   0:9       = 999.9997m
+ + 0:10      = 185.7558n  0:vcc!    =   1.0000   1:c1      =   1.1961u
+ + 1:c2      =   1.0413u  1:c3      = 881.1541n  1:c4      = 715.6364n
+ + 1:c5      = 544.7622n  1:c6      = 368.5314n  1:c7      = 186.9440n
+
+
+ ****  voltage sources
+
+ subckt                                                              
+ element   0:v1        0:vin1      0:vin2      0:vin3      0:vin4    
+  volts       1.0000      0.          1.0000      1.0000      1.0000 
+  current  -124.8356p     1.2523p    -1.9438p    -1.9438p    -1.9438p
+  power     124.8356p     0.          1.9438p     1.9438p     1.9438p
+
+ subckt                                                  
+ element   0:vin5      0:vin6      0:vin7      0:vin8    
+  volts       1.0000      1.0000      1.0000      1.0000 
+  current    -1.9438p    -1.9438p    -1.9438p    -1.9438p
+  power       1.9438p     1.9438p     1.9438p     1.9438p
+
+     total voltage source power dissipation=  138.4424p       watts
+
+
+
+
+ **** mosfets
+
+
+ subckt    xnand8.xp1  xnand8.xp2  xnand8.xp3  xnand8.xp4  xnand8.xp5
+ element   3:m1        4:m1        5:m1        6:m1        7:m1      
+ model     3:p11ll_ck  4:p11ll_ck  5:p11ll_ck  6:p11ll_ck  7:p11ll_ck
+ region        Linear      Cutoff      Cutoff      Cutoff      Cutoff
+  id        -58.3721p   -19.7941a   -19.7941a   -19.7941a   -19.7941a
+  ibs       1.862e-20   6.216e-27   6.216e-27   6.216e-27   6.216e-27
+  ibd       3.288e-19   3.471e-19   3.471e-19   3.471e-19   3.471e-19
+  vgs        -1.0000      0.          0.          0.          0.     
+  vds      -334.8482n  -334.8482n  -334.8482n  -334.8482n  -334.8482n
+  vbs         0.          0.          0.          0.          0.     
+  vth      -617.6879m  -617.6879m  -617.6879m  -617.6879m  -617.6879m
+  vdsat    -266.5163m   -42.2504m   -42.2504m   -42.2504m   -42.2504m
+  vod      -382.3121m   617.6879m   617.6879m   617.6879m   617.6879m
+  beta      638.3504u   905.2800u   905.2800u   905.2800u   905.2800u
+  gam eff   290.4900m   290.4900m   290.4900m   290.4900m   290.4900m
+  gm        114.8216p   486.0785a   486.0785a   486.0785a   486.0785a
+  gds       195.0529u    59.1136p    59.1136p    59.1136p    59.1136p
+  gmb        15.9544p    54.6969a    54.6969a    54.6969a    54.6969a
+  cdtot     188.2343a   129.3277a   129.3277a   129.3277a   129.3277a
+  cgtot     157.6557a    94.6052a    94.6052a    94.6052a    94.6052a
+  cstot     190.3140a   128.8607a   128.8607a   128.8607a   128.8607a
+  cbtot     179.4804a   181.6133a   181.6133a   181.6133a   181.6133a
+  cgs        80.9537a    42.0945a    42.0945a    42.0945a    42.0945a
+  cgd        75.6809a    42.9360a    42.9360a    42.9360a    42.9360a
+
+
+
+ subckt    xnand8.xp6  xnand8.xp7  xnand8.xp8  xnand8.xn1  xnand8.xn2
+ element   8:m1        9:m1       10:m1       11:m1       12:m1      
+ model     8:p11ll_ck  9:p11ll_ck 10:p11ll_ck 11:n11ll_ck 12:n11ll_ck
+ region        Cutoff      Cutoff      Cutoff      Cutoff      Linear
+  id        -19.7941a   -19.7941a   -19.7941a    54.9729p    56.1758p
+  ibs       5.985e-27   6.216e-27   6.216e-27  -7.844e-21  -4.369e-21
+  ibd       3.471e-19   3.471e-19   3.471e-19    -1.0871p  -1.560e-19
+  vgs         0.          0.          0.         -1.1961u   999.9990m
+  vds      -334.8482n  -334.8482n  -334.8482n   999.9985m   154.8045n
+  vbs         0.          0.          0.          0.          0.     
+  vth      -617.6879m  -617.6879m  -617.6879m   512.0131m   582.3806m
+  vdsat     -42.2504m   -42.2504m   -42.2504m    37.2400m   231.8299m
+  vod       617.6879m   617.6879m   617.6879m  -512.0143m   417.6184m
+  beta      905.2800u   905.2800u   905.2800u     1.8624m     1.1964m
+  gam eff   290.4900m   290.4900m   290.4900m   310.3100m   310.3100m
+  gm        486.0785a   486.0785a   486.0785a     1.4202n   109.6009p
+  gds        59.1136p    59.1136p    59.1136p   133.2158p   383.4418u
+  gmb        54.6969a    54.6969a    54.6969a    94.9962p    14.5420p
+  cdtot     129.3277a   129.3277a   129.3277a    66.2045a   291.5453a
+  cgtot      94.6052a    94.6052a    94.6052a    72.9431a   135.0978a
+  cstot     128.8607a   128.8607a   128.8607a   120.2455a   215.4427a
+  cbtot     181.6133a   181.6133a   181.6133a   129.7769a   177.0183a
+  cgs        42.0945a    42.0945a    42.0945a    35.0814a    73.6943a
+  cgd        42.9360a    42.9360a    42.9360a    29.6494a    60.8052a
+
+
+
+ subckt    xnand8.xn3  xnand8.xn4  xnand8.xn5  xnand8.xn6  xnand8.xn7
+ element  13:m1       14:m1       15:m1       16:m1       17:m1      
+ model    13:n11ll_ck 14:n11ll_ck 15:n11ll_ck 16:n11ll_ck 17:n11ll_ck
+ region        Linear      Linear      Linear      Linear      Linear
+  id         58.1196p    60.0634p    62.0073p    63.9511p    65.8949p
+  ibs      -4.518e-21  -4.666e-21  -4.815e-21  -4.964e-21  -5.112e-21
+  ibd      -1.614e-19  -1.668e-19  -1.722e-19  -1.776e-19  -1.830e-19
+  vgs       999.9991m   999.9993m   999.9995m   999.9996m   999.9998m
+  vds       160.1611n   165.5177n   170.8742n   176.2308n   181.5874n
+  vbs         0.          0.          0.          0.          0.     
+  vth       582.3806m   582.3806m   582.3806m   582.3806m   582.3806m
+  vdsat     231.8299m   231.8300m   231.8301m   231.8301m   231.8302m
+  vod       417.6185m   417.6187m   417.6189m   417.6191m   417.6192m
+  beta        1.1964m     1.1964m     1.1964m     1.1964m     1.1964m
+  gam eff   310.3100m   310.3100m   310.3100m   310.3100m   310.3100m
+  gm        113.3933p   117.1857p   120.9781p   124.7705p   128.5629p
+  gds       383.4419u   383.4420u   383.4421u   383.4422u   383.4424u
+  gmb        15.0452p    15.5484p    16.0516p    16.5548p    17.0580p
+  cdtot     291.5453a   291.5453a   291.5453a   291.5453a   291.5453a
+  cgtot     135.0978a   135.0978a   135.0978a   135.0978a   135.0978a
+  cstot     215.4427a   215.4427a   215.4427a   215.4427a   215.4427a
+  cbtot     177.0183a   177.0183a   177.0183a   177.0183a   177.0183a
+  cgs        73.6943a    73.6943a    73.6943a    73.6943a    73.6943a
+  cgd        60.8052a    60.8052a    60.8052a    60.8052a    60.8052a
+
+
+
+ subckt    xnand8.xn8  xinv.xp     xinv.xn   
+ element  18:m1       19:m1       20:m1      
+ model    18:n11ll_ck 19:p11ll_ck 20:n11ll_ck
+ region        Linear      Cutoff      Linear
+  id         67.8387p   -65.7900p    67.4075p
+  ibs      -5.261e-21   2.078e-20  -5.228e-21
+  ibd      -1.883e-19     1.0911p  -1.871e-19
+  vgs         1.0000   -334.8482n   999.9997m
+  vds       186.9440n  -999.9998m   185.7558n
+  vbs         0.          0.          0.     
+  vth       582.3806m  -550.5441m   582.3806m
+  vdsat     231.8303m   -41.8710m   231.8301m
+  vod       417.6194m   550.5438m   417.6191m
+  beta        1.1964m     1.0217m     1.1964m
+  gam eff   310.3100m   290.4900m   310.3100m
+  gm        132.3553p     1.6139n   131.5142p
+  gds       383.4425u   167.5036p   383.4422u
+  gmb        17.5611p   126.7960p    17.4495p
+  cdtot     291.5453a    76.9235a   291.5453a
+  cgtot     135.0978a    86.4316a   135.0978a
+  cstot     215.4428a   128.7440a   215.4427a
+  cbtot     177.0183a   138.3339a   177.0183a
+  cgs        73.6943a    42.6654a    73.6943a
+  cgd        60.8052a    34.1855a    60.8052a
+
+
+
+ ******  
+ .title delay test (method 1) by zhuoxu                                         
+  ******  transient analysis               tnom=  25.000 temp=  25.000          
+ ******  
+   tplh=  7.4721E-11  targ=  1.0472E-10   trig=  3.0000E-11
+   tphl=  2.4993E-11  targ=  2.7499E-10   trig=  2.5000E-10
+
+          ***** job concluded
+ ****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 16:09:39 04/11/2020 winnt
+ ******  
+ .title delay test (method 1) by zhuoxu                                         
+  ******  job statistics summary           tnom=  25.000 temp=  25.000          
+ ******  
+
+           total memory used        797 kbytes
+
+  # nodes =      55 # elements=      27
+  # diodes=       0 # bjts    =       0 # jfets   =       0 # mosfets =      18
+  # va device =       0
+
+    analysis           time    # points   tot. iter  conv.iter
+
+    op point           0.01           1           9
+    transient          0.11         401         146          55 rev=         4
+    readin             0.05
+    errchk             0.02
+    setup              0.01
+    output             0.00
+           total cpu time          0.25 seconds
+               job started at  16:09:39 04/11/2020
+               job ended   at  16:09:39 04/11/2020
+
+
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+  lic: Release hspice token(s) 

@@ -1,0 +1,15 @@
+pnlAddPane();
+nil
+1
+designOpen("f:\\vlsiexp\\exp3_tsetup\\t_setup.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","tsetup"), node(D0,"A0","datariseat"));
+nil
+pnlAddCurve(1, node(D0,"A0","tclktoq"), node(D0,"A0","datariseat"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

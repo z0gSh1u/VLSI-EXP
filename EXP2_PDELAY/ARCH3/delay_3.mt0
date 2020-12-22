@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='A-2007.09'
+.TITLE '.title delay test (method 3) by zhuoxu'
+ tplh             tphl             temper           alter#            
+  4.021e-11        2.157e-11         25.0000           1.0000         

@@ -1,0 +1,15 @@
+* "simulator" "HSPICE" 
+* "version" "A-2007.09"
+* "format" "HSP"
+* "rundate" "22:58:15 03/19/2020 "
+* "netlist" "f:\vlsiexp\intro_0\intro.sp "
+* "runtitle" "a simple circuit"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   6.0000        
++ 2 =   4.0000        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,19 @@
+* "simulator" "HSPICE" 
+* "version" "A-2007.09"
+* "format" "HSP"
+* "rundate" "11:36:27 06/08/2020 "
+* "netlist" "f:\variousrepo\vlsiexp\exp4_ram\write\write.sp "
+* "runtitle" ".title sram bitcell (6 tube) write"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=  10.0000f       
+.nodeset
++ bl =   0.            
++ blr =   1.0000        
++ q =   1.0000        
++ qr = 980.5283f       
++ vcc! =   1.0000        
++ wl =   0.            
+***   END: Saved Operating Point ***                     

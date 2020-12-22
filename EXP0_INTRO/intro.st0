@@ -1,0 +1,29 @@
+***** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 22:58:15 03/19/2020 winnt
+ Input File: f:\vlsiexp\intro_0\intro.sp
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   c1119                HOSTNAME: ZHUOXUPC
+ lic: HOSTID: "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00ffd6dbca79 0a0027000008
+ lic: Using FLEXlm license file:
+ lic: C:\synopsys\Hspice_A-2007.09\license.dat
+ lic: Checkout 1 hspice;  Encryption code: AD47C1C891DA5D596A45
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00ff
+ lic:
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+ init: begin read circuit files,  cpu clock=  8.80E-02
+       option list
+       option node
+       option post
+ init: end read circuit files,  cpu clock=  9.80E-02 memory=    145 kb
+ init: begin check errors,  cpu clock=  9.80E-02
+ init: end check errors,  cpu clock=  1.02E-01 memory=    145 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  1.02E-01
+       establish matrix -- done,  cpu clock=  1.05E-01 memory=    146 kb
+       re-order matrix -- done,  cpu clock=  1.07E-01 memory=    146 kb
+ init: end setup matrix,  cpu clock=  1.08E-01 memory=    155 kb
+ dcop: begin dcop,  cpu clock=  1.10E-01
+ dcop: end dcop,  cpu clock=  1.13E-01 memory=    155 kb  tot_iter=       4
+>info:         ***** hspice job concluded
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+ lic: Release hspice token(s)

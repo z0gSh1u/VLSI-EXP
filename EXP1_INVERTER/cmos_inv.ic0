@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "A-2007.09"
+* "format" "HSP"
+* "rundate" "17:25:39 03/23/2020 "
+* "netlist" "f:\vlsiexp\inverter_1\cmos_inv.sp "
+* "runtitle" ".title inverter (cmos) by zhuoxu"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=  10.0000f       
+.nodeset
++ 1 =   0.            
++ 2 = 999.9997m       
++ vcc! =   1.0000        
+***   END: Saved Operating Point ***                     

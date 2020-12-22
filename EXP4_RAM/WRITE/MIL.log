@@ -1,0 +1,21 @@
+pnlAddPane();
+nil
+1
+designOpen("f:\\variousrepo\\vlsiexp\\exp4_ram\\write\\write.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(q)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(qr)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(bl)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(blr)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(wl)"), node(D0,"A0","TIME"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

@@ -1,0 +1,180 @@
+ ****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 11:39:28 06/08/2020 winnt
+  Copyright (C) 2007 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement found in:
+    C:\synopsys\Hspice_A-2007.09\license.txt
+  Use of this program is your acceptance to be bound by this 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: f:\variousrepo\vlsiexp\exp4_ram\read\read.sp                      
+  lic:  
+  lic: FLEXlm: v8.5b 
+  lic: USER:   c1119                HOSTNAME: ZHUOXUPC 
+  lic: HOSTID: "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00ff75708ad4 0a0027000008
+  
+  lic: Using FLEXlm license file: 
+  lic: C:\synopsys\Hspice_A-2007.09\license.dat 
+  lic: Checkout 1 hspice;  Encryption code: AD47C1C891DA5D596A45 
+  lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9 
+  lic: NODE LOCKED license on hostid "54ee75d9c038 6014b36cfaf6 00ff9dc7e326 00f
+ f
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_A-2007.09\meta.cfg
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+
+
+
+
+
+ .options post brief
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:51)  model n11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:201)  model p11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:324)   model nhvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:453)   model phvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:573)   model nlvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:700)   model plvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:815)   model nt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:928)   model n25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1046)   model nod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1192)   model nud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1310)   model p25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1430)   model pod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1554)   model pud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1675)   model nt25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1793)   model ntod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1911)   model ntud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:51)  model n11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:201)  model p11ll_ckt       device geometries will not be checked against the limits set bylmin, lmax, wmin and wmax. To enable this check, add a period(.)to the model name(i.e. enable model selector).
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:324)   model nhvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:453)   model phvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:573)   model nlvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:700)   model plvt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:815)   model nt11ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:928)   model n25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1046)   model nod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1192)   model nud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1310)   model p25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1430)   model pod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1554)   model pud18ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1675)   model nt25ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1793)   model ntod33ll_ckt is not used in netlist
+  **warning** (..\..\model\l0040ll_v1p4_1r.mdl:1911)   model ntud18ll_ckt is not used in netlist
+
+ ***********************************************************************
+ ** runlvl is invoked, you can disable it by:
+      a) Add option runlvl=0 to your current simulation job.
+      b) Copy $installdir/hspice.ini to your HOME directory and
+         customize it by adding option runlvl=0, which disables
+         it for all of your simulation jobs.
+      c) Re-invoke $installdir/bin/config program and unselect the
+         option runlvl setting in box 'hspice.ini' which disables
+         it for whole group simulation jobs.
+
+ ** runlvl is invoked, some options are ignored or automatically set:
+      Options below are automatically set(user setting will overwrite them):
+      if runlvl=6,            .option bypass=0
+      if runlvl=[1|2|3|4|5],  .option bypass=2
+
+      Options below are ignored, they are replaced by automated algorithms:
+        lvltim    dvdt      ft    fast   trtol  absvar  relvar
+          relq  chgtol    dvtr    imin    itl3    rmax
+
+ ** runlvl is invoked, actual option value used by HSPICE are:
+       runlvl= 3       bypass= 2      mbypass=   2.00   bytol= 100.00u
+ ***********************************************************************
+
+
+ **warning** both nodes of source     0:v2              
+             are connected together
+
+
+ **warning** dc voltage reset to initial transient source value
+             in source        0:vwl                 new dc=  0.0000D+00
+
+  Opening plot unit= 79
+ file=f:\variousrepo\vlsiexp\exp4_ram\read\read.pa0                            
+
+ ****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 11:39:28 06/08/2020 winnt
+ ******  
+ .title sram bitcell (6 tube) read                                              
+  ******  operating point information      tnom=  25.000 temp=  25.000          
+ ******  
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:bl      =   1.0000  0:blr     =   1.0000  0:q       =   1.0000 
+ +0:qr      = 980.5283f 0:vcc!    =   1.0000  0:wl      =   0.     
+
+
+ ****  voltage sources
+
+ subckt                        
+ element  0:v1       0:vwl     
+  volts      1.0000     0.     
+  current  -40.6426p  323.3554f
+  power     40.6426p    0.     
+
+     total voltage source power dissipation=   40.6426p       watts
+
+
+
+
+ **** mosfets
+
+
+ subckt   xm1        xm2        xm3        xm4        xm5        xm6       
+ element  1:m1       2:m1       3:m1       4:m1       5:m1       6:m1      
+ model    1:n11ll_ck 2:p11ll_ck 3:n11ll_ck 4:p11ll_ck 5:n11ll_ck 6:n11ll_ck
+ region       Linear     Cutoff     Cutoff     Linear     Cutoff     Cutoff
+  id       512.1065a  -40.1118p   95.9237p -136.9600a   54.9748p    0.     
+  ibs     -7.525e-23  1.634e-20 -9.567e-21  1.836e-22 -7.846e-21   -1.0871p
+  ibd     -7.623e-23    1.0701p   -1.1265p  1.845e-22   -1.0871p   -1.0871p
+  vgs        1.0000    -1.0043p  980.5283f   -1.0000  -980.5283f   -1.0000 
+  vds      980.5283f   -1.0000     1.0000    -1.0043p    1.0000     1.0011p
+  vbs        0.         0.         0.         0.      -980.5283f   -1.0000 
+  vth      586.6387m -556.6532m  510.5890m -623.5315m  512.0130m  667.2403m
+  vdsat    230.6697m  -41.1188m   37.7815m -259.4486m   37.2400m   37.0593m
+  vod      413.3613m  556.6532m -510.5890m -376.4685m -512.0130m   -1.6672 
+  beta       1.7463m  829.1122u    2.7416m  509.0805u    1.8624m    1.6056m
+  gam eff  310.3100m  290.4900m  310.3100m  290.4900m  310.3100m  310.3100m
+  gm         1.0114f  990.7092p    2.4516n  268.5558a    1.4202n    0.     
+  gds      551.5467u  101.7492p  240.1009p  152.9272u  133.2204p  2.866e-23
+  gmb      133.3060a   79.2573p  161.4327p   37.6805a   94.9994p    0.     
+  cdtot    415.1462a   60.6451a   93.3766a  147.2629a   66.2045a   66.2048a
+  cgtot    196.1532a   66.5111a  105.9757a  121.2409a   72.9431a   67.5637a
+  cstot    308.2333a  100.7906a  171.4368a  148.3781a  120.2455a   66.2046a
+  cbtot    250.5815a  109.6947a  182.4669a  141.6157a  129.7769a   81.2933a
+  cgs      107.2562a   32.8076a   50.9741a   62.2600a   35.0814a   29.6716a
+  cgd       87.9434a   26.2973a   43.0630a   58.2008a   29.6494a   29.6693a
+
+
+
+
+          ***** job concluded
+ ****** HSPICE  --  A-2007.09  32-BIT    (Aug 28 2007) 11:39:28 06/08/2020 winnt
+ ******  
+ .title sram bitcell (6 tube) read                                              
+  ******  job statistics summary           tnom=  25.000 temp=  25.000          
+ ******  
+
+           total memory used        490 kbytes
+
+  # nodes =      19 # elements=       8
+  # diodes=       0 # bjts    =       0 # jfets   =       0 # mosfets =       6
+  # va device =       0
+
+    analysis           time    # points   tot. iter  conv.iter
+
+    op point           0.01           1           4
+    transient          0.07         301         102          41 rev=         3
+    readin             0.05
+    errchk             0.01
+    setup              0.01
+    output             0.00
+           total cpu time          0.19 seconds
+               job started at  11:39:28 06/08/2020
+               job ended   at  11:39:28 06/08/2020
+
+
+ Init: hspice initialization file: C:\synopsys\Hspice_A-2007.09\hspice.ini
+  lic: Release hspice token(s) 
